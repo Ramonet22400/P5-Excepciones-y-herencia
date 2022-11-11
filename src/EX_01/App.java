@@ -7,16 +7,7 @@ public class App {
     //un String, de tal modo que ambos invoquen a los constructores de la clase “Exception”
     //correspondientes.
 
-    public static void main(String[] args) throws NegativeNumberException {
-        throw new NegativeNumberException
+    public static void main(String[] args) throws NeagtiveNumberException {
+        throw new NeagtiveNumberException("El programa no va :( ");
     }
-
-
-    public DivideByZeroException extends ArithmeticException {
-
-        public DivideByZeroException(String message){
-            super(message);
-        }
-    }
-
 }
