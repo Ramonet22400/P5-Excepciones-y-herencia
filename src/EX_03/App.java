@@ -21,12 +21,11 @@ public class App {
         } catch (Exception MaxLengthArr) {
 
             System.out.println("Se a sobrepasado el limite del array.");
-
+1
             Scanner sc2 = new Scanner(System.in);
             String respuesta;
             respuesta = sc2.nextLine();
 
-            System.out.println("Si desea ampliar el array escibra: yes Si no es el caso escriba cualquier otra cosa.");
 
             if (respuesta.equals("yes")) {
                 array1 = new int[20];
