@@ -24,14 +24,22 @@ public class App {
 
             Scanner sc2 = new Scanner(System.in);
             String respuesta;
+            respuesta = sc2.nextLine();
 
-            respuesta=sc2.nextLine();
+            System.out.println("Si desea ampliar el array escibra: yes Si no es el caso escriba cualquier otra cosa.");
 
+            if (respuesta.equals("yes")) {
+                array1 = new int[20];
 
-            if ()
+                for (int i = 0; i < 20; i++) {
+                    array1[i]=sc2.nextInt();  //Guardamos cada valor en su posicion
+                }
 
-        } finally {
-            System.out.println("El programa funciona correctamente :) ");
+                System.out.println("Ahora si el array a superado su tamño maximo, y no se puede ampliar mas. ");
+
+            } else {
+                System.out.println("El programa a finalizado.");
+            }
         }
     }
 }
