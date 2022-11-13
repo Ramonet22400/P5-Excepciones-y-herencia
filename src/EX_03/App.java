@@ -1,5 +1,8 @@
 package EX_03;
 
+//3. Escribe un código que genere y capture una excepción al sobrepasar el límite de un
+//array. Añada el código a la tabla
+
 import java.lang.reflect.Array;
 import java.util.Scanner;
 
