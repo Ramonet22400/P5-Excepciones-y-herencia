@@ -21,7 +21,7 @@ public class App {
         } catch (Exception MaxLengthArr) {
 
             System.out.println("Se a sobrepasado el limite del array.");
-1
+
             Scanner sc2 = new Scanner(System.in);
             String respuesta;
             respuesta = sc2.nextLine();
