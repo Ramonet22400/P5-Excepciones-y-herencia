@@ -11,3 +11,4 @@ public class App {
         throw new NeagtiveNumberException("El programa no va :( ");
     }
 }
+
