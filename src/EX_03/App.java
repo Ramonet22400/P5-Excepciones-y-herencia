@@ -29,7 +29,6 @@ public class App {
             String respuesta;
             respuesta = sc2.nextLine();
 
-
             if (respuesta.equals("yes")) {
                 array1 = new int[20];
 

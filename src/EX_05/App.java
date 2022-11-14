@@ -47,12 +47,16 @@ public class App {
 
                 } else if (palabra.equals("No")) {
                     System.out.println("Okay no pasa nada :( ");
+                }else {
+                    throw new NotDiccionario("El parametro introducido es incorrecto.");
                 }
 
-            } catch (Exception NotDiccionario) {
+            } catch (Exception e) {
 
                 System.out.println("La respuesta es incorrecta o está mal escrita.");
+            } catch (NotDiccionario e) {
+                throw new RuntimeException(e);
             }
-        } while (Objects.equals(palabra, "Si"));
+        } while (true);
     }
 }
